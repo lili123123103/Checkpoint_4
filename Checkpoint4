@@ -1,0 +1,49 @@
+Exercice 1
+#exercice 1
+def maximum(a,b):
+    if a<b:
+        return(b)
+max=maximum(1,8)
+print (max)
+8
+
+exercice2
+# exercice 2
+def calculation(a,b):
+    return [(a+b),(a-b)]
+calculation (40,10)
+  
+[50, 30]
+exercice3
+#exercice 3 
+#exemple 1
+def bonjour(a,b):
+    return (a+b)
+bonjour (3,4)
+7
+
+
+exercicd4
+import 
+
+numbers = i("Provide D: ")
+numbers = numbers.split(',')
+
+result_list = []
+for D in numbers:
+    Q = round(math.sqrt(2 * 50 * int(D) / 30))
+    result_list.append(Q)
+
+print(result_list)
+
+exercice5
+exercice 4
+    s="black-white-yellow"
+    a=s.split("black-white-yellow")
+    a
+['black','white','yellow']
+    a.sort()
+    a
+['black','white','yellow'] 
+    s='-'.join(a)
+    print(a)
